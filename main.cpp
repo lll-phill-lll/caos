@@ -2,9 +2,11 @@
 
 
 #include "mylib.h"
+#include "pretty_printer.h"
 
 int main() {
 
-	std::cout << "My number: " << give_num() << std::endl;
+	int num = give_num();
+	print(num);
 
 }
