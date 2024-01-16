@@ -10,10 +10,12 @@ int main() {
 
 	int num = give_num();
 	num = sum(num, 3);
-	print(num);
+	print("(SUM)", num);
 
 	int num_2 = give_num();
 	int mult_res = mult(num_2, num);
-	print(mult_res);
+	print("(MULT)", mult_res);
+
+	print("(55)", 55);
 
 }

@@ -1,6 +1,6 @@
 #pragma once
 
-void print(int num) {
+void print(const std::string& s, int num) {
 
-	std::cout << "My value: [" << num << "]" << std::endl;
+	std::cout << s << ": [" << num << "]" << std::endl;
 }
