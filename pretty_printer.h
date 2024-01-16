@@ -2,5 +2,5 @@
 
 void print(int num) {
 
-	std::cout << "[" << num << "]" << std::endl;
+	std::cout << "My value: [" << num << "]" << std::endl;
 }
